@@ -1,0 +1,15 @@
+@use 'config/variables';
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+
+        a {
+            color: variables.$text-color-white;
+            text-decoration: none;
+        }
+    }
+}

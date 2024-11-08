@@ -1,0 +1,15 @@
+@use 'config/variables';
+
+header {
+    background-color: variables.$header-bg-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: variables.$container-padding;
+    }
+}
